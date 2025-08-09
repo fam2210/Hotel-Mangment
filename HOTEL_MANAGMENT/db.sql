@@ -48,9 +48,6 @@ CREATE TABLE `bookings` (
 -- Dumping data for table `bookings`
 --
 
-INSERT INTO `bookings` (`id`, `name`, `email`, `hotel_venue`, `package_type`, `num_of_rooms`, `num_of_guests`, `booking_date`, `booking_time`, `parking`, `tax_amount`, `total_amount`, `instructions`, `booked_at`) VALUES
-(3, 'MOKNOJIYA FATEHALI ABBASALI ', 'fattehaliabbasali22102005@gmail.com', 'N/A', 'Silver', 1, '2', '2025-07-20', '17:45:00', 'No', 0.00, 5000.00, '', '2025-07-13 12:15:19'),
-(4, 'MOKNOJIYA FATEHALI ABBASALI ', 'fattehaliabbasali22102005@gmail.com', 'N/A', 'Gold', 1, '4', '2025-07-16', '00:19:00', 'No', 0.00, 10000.00, '', '2025-07-14 06:47:54');
 
 -- --------------------------------------------------------
 
@@ -66,11 +63,7 @@ CREATE TABLE `feedback` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `feedback`
---
 
-INSERT INTO `feedback` (`id`, `email`, `message`, `submitted_at`) VALUES
-(1, 'fattehaliabbasali22102005@gmail.com', 'best hotel service.', '2025-07-13 05:55:28');
 
 -- --------------------------------------------------------
 
@@ -86,12 +79,6 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
-(1, 'Fam ', 'fattehaliabbasali22102005@gmail.com', '$2y$10$vZm2tNp67aQqhzZrZxksgOTpJZA4KIKq5dCF4dWPvuqPj26BMWkOG'),
-(2, 'MOKNOJIYA FATEHALI ABBASALI ', 'maisam@gmail.com', '$2y$10$soxXkfg1dmxEsacMPfErvOrpfrDqji.EGdaWExZPZtYZ8aHBQ6Uei');
 
 --
 -- Indexes for dumped tables
